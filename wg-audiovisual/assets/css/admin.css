@@ -1,0 +1,12 @@
+.wg-meta .wg-field, .wg-options .wg-field { margin: 0 0 18px; }
+.wg-options form { max-width: 900px; }
+.wg-options .wg-field input[type=text], .wg-options .wg-field input[type=url], .wg-options .wg-field textarea { width: 100%; }
+.wg-gallery-preview { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.wg-gallery-preview img { width: 80px; height: 80px; object-fit: cover; border-radius: 4px; }
+.wg-status { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #f0f0f1; }
+.wg-status--novo { background: #fce4ef; color: #a0104f; font-weight: 600; }
+.wg-status--contato { background: #e5f0ff; color: #1d4fa0; }
+.wg-status--proposta { background: #fff4d6; color: #7a5200; }
+.wg-status--ganho { background: #dff5e7; color: #17663a; }
+.wg-status--perdido { background: #f0f0f1; color: #50575e; }
+.wg-lead-table th { font-weight: 600; }
