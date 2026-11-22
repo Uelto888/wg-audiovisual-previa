@@ -6,6 +6,7 @@
     "author": "Uelto888"
   },
   "landingPage": "/",
+  "login": false,
   "preferredVersions": {
     "php": "8.3",
     "wp": "latest"
