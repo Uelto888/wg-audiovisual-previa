@@ -2,13 +2,22 @@
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "meta": {
     "title": "WG Soluções Audiovisuais — prévia",
-    "description": "Prévia do novo site da WG com o tema wg-audiovisual e o conteúdo inicial."
+    "description": "Prévia do novo site da WG com o tema wg-audiovisual e o conteúdo inicial.",
+    "author": "Uelto888"
   },
   "landingPage": "/",
-  "preferredVersions": { "php": "8.3", "wp": "latest" },
-  "features": { "networking": true },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
   "steps": [
-    { "step": "setSiteLanguage", "language": "pt_BR" },
+    {
+      "step": "setSiteLanguage",
+      "language": "pt_BR"
+    },
     {
       "step": "installTheme",
       "themeData": {
@@ -18,7 +27,9 @@
         "refType": "branch",
         "path": "wg-audiovisual"
       },
-      "options": { "activate": true }
+      "options": {
+        "activate": true
+      }
     },
     {
       "step": "runPHP",
